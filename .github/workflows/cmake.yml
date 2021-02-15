@@ -44,7 +44,7 @@ jobs:
         # Artifact name
         name: libSimpleLinuxMemoryAccess # optional, default is artifact
         # A file, directory or wildcard pattern that describes what to upload
-        path: /build/libSimpleLinuxMemoryAccess.so
+        path: ${{github.workspace}}/build/libSimpleLinuxMemoryAccess.so
         
    # - name: Test
     #  working-directory: ${{github.workspace}}/build
